@@ -17,6 +17,16 @@ html{
     -o-background-size: cover;
     background-size: cover;
 }
+html::-webkit-scrollbar{
+   width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+html::-webkit-scrollbar-thumb {
+   background: maroon;
+}
 #logo {
     color: mintcream;
     font-family:algerian;
